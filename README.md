@@ -1,4 +1,4 @@
-# INTRODUCTIOM
+# INTRODUCTION
 Hi, 
 I am Sujan Basnet, An international Student at ATHENS STATE UNIVERSITY. I am planning to graduate on Dec of 2022. I am doing my Major in Information Technology and minor in Accounting. I am intrested in sowfware devlopment and good at C++, CSS, HTML, Java script. I have also worked in Pythone programming, worked with a small app design and development with Xcode.
 
