@@ -1,0 +1,225 @@
+header {
+background-image : linear-gradient(45deg, white 0%, orange 75%, black 100%);
+padding : 1.875%;
+}
+header img {
+float : left;
+padding-right : 1.875%;
+min-width : 40px;
+max-width : 8.75%;
+margin : 0.1em;
+}
+header h2 {
+font-size : 230%;
+}
+header h3 {
+font-size : 125%;
+}
+main {
+clear : left;
+}
+table {
+width : 100%;
+}
+td:nth-of-type(2) {
+background-color : #F5DEB3;
+text-align : right;
+width : 17%;
+}
+th {
+text-align : left;
+}
+thead th:nth-child(3) {
+text-align : right;
+}
+thead th {
+color : gray;
+padding-bottom : 0.5em;
+}
+th, td {
+padding : 0.35em 0;
+padding-right : 0.25em;
+}
+tbody th {
+vertical-align : top;
+}
+table {
+padding : 1.5em 1em;
+width : 60%;
+}
+.head2 {
+margin-top : 2em;
+margin-left : 7em;
+}
+.price {
+background-color : #F5DEB3;
+}
+.price a {
+color : black;
+font-weight : normal;
+}
+html {
+color : #000;
+font-family : sans-serif;
+}
+a:focus {
+outline : thin dotted;
+}
+a:active, a:hover {
+outline : 0;
+}
+h1 {
+font-size : 2em;
+margin : 0.67em 0;
+}
+img {
+border : 0;
+}
+html {
+background-image : url(bats.gif);
+}
+body {
+font-family : Veranda, Arial, Helvetica, sans-serif;
+width : 95%;
+max-width : 960px;
+background-color : white;
+margin : 0 auto;
+padding : 0;
+border : black solid 3px;
+box-shadow : 0 9px 18px 9px black;
+}
+h1, h2, h3, p {
+margin : 0;
+padding : 0;
+}
+a:link, a:visited {
+color : black;
+}
+a:hover, a:focus {
+color : green;
+}
+#navMenu a {
+font-weight : normal;
+}
+#navMenu ul {
+list-style-type : none;
+margin : 0;
+padding : 0;
+position : relative;
+}
+#navMenu ul li {
+float : left;
+width : 20%;
+}
+#navMenu ul li a {
+display : block;
+text-align : center;
+padding : 1em 0;
+text-decoration : none;
+background-color : black;
+color : white;
+}
+#navMenu a.product {
+color : orange;
+}
+#navMenu ul ul {
+display : none;
+position : absolute;
+top : 100%;
+width : 100%;
+}
+#navMenu ul ul li {
+float : none;
+}
+#navMenu ul li a:hover {
+background-color : gray;
+}
+#navMenu ul li:hover > ul {
+display : block;
+}
+#navMenu > ul::after {
+content : "";
+clear : both;
+display : block;
+}
+#nav_list {
+float : left;
+padding : 0;
+width : 20%;
+margin-left : -1em;
+}
+#nav_list ul {
+list-style-type : none;
+}
+#nav_list ul li {
+margin-bottom : 0.5em;
+border : black solid 2px;
+background-color : orange;
+}
+#nav_list ul li a {
+display : block;
+padding : 0.5em 0 0.5em 0.5em;
+text-decoration : none;
+font-weight : bold;
+color : black;
+}
+section {
+float : right;
+width : 72.5%;
+margin-bottom : 3em;
+}
+footer {
+clear : both;
+border-top : 2px solid black;
+background-image : linear-gradient(45deg, black 0%, orange 25%, white 100%);
+padding : 1.875%;
+}
+footer p {
+font-size : 90%;
+text-align : center;
+}
+.slicknav_menu {
+display : none;
+}
+@media only screen and (max-width: 800px) {
+html {
+background-image : none;
+}
+body {
+box-shadow : none;
+font-size : 90%;
+}
+}
+
+@media only screen and (max-width: 960px) {
+.slicknav_menu {
+display : block;
+}
+#navMenu {
+display : none;
+}
+section {
+float : none;
+width : 95%;
+}
+#nav_list {
+width : 50%;
+float : none;
+margin : 1em 20%;
+}
+#nav_list ul li a {
+text-align : center;
+}
+}
+
+@media only screen and (max-width: 479px) {
+header {
+font-size : 80%;
+}
+section h1:first-letter {
+font-size : 230%;
+}
+section h1 {
+font-size : 130%;
+}
+}

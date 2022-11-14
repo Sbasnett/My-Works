@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halloween Store</title>
+     <link rel="stylesheet" href="summary.css">
+     <script src="slicknav.min.js"></script>
+      <script src="jquery.slicknav.min.js"> </script>
+     <link rel="stylesheet" href="slicknav.css">
+       <link rel="shortcut icon" href="favicon.ico">
+
+
+</head>
+<body>
+<header>
+    <a href="index.html" class="home"><img src="pumpkin.gif" alt="Pumpkin"></a>
+    <h2>The Halloween Store</h2>
+    <h3>For the little Goblin in all of us!</h3>
+</header>
+
+<nav id="mblMenu"></nav>
+<nav id="navMenu">
+    <ul>
+        <li><a href="index.html" class="home">Home</a></li>
+        <li><a href="product_index.html" class="product">Product List</a></li>
+        <li><a href="personal_index">Personal</a></li>
+        <li><a href="#">Decorating Ideas</a>
+            <ul>
+                <li><a href="#">Outdoor</a></li>
+                <li><a href="#">Indoor</a></li>
+                <li><a href="#">Table</a></li>
+                <li><a href="#">Treats</a></li>
+            </ul>
+        </li>
+        <li><a href="email.html">Join Email</a></li>
+    </ul>
+</nav>
+    <main>
+      <section>
+        <h2 class="head2">Product List</h2>
+        <table>
+				<thead>
+				<tr>
+					<th> Category</th>
+					<th> Description</th>
+					<th> Price</th>
+				</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th rowspan="5"> Props</th>
+						<td><a href="cat.html">20" Deranged Cat</a></td>
+						<td> $19.99</td>
+					</tr>
+					<tr>
+						<td><a href="#">Flying Bats</a></td>
+						<td> $14.99</td>
+					</tr>
+					<tr>
+						<td><a href="#">16" Ugly rat</a></td>
+						<td> $14.99</td>
+					</tr>
+					<tr>
+						<td><a href="#">20" Uglier rat</a></td>
+						<td> $19.99</td>
+					</tr>
+					<tr>
+						<td><a href="#"> Plastic skeleton</a></td>
+						<td> $12.50</td>
+					</tr>
+					<tr>
+						<th rowspan="3"> Costumes</th>
+						<td><a href="#">Austin Powers</a></td>
+						<td> $79.50</td>
+					</tr>
+					<tr>
+						<td><a href="#">Frankenstein</a></td>
+						<td> $49.99</td>
+					</tr>
+					<tr>
+						<td><a href="#">Martian</a></td>
+						<td> $69.99</td>
+					</tr>
+					<tr>
+						<th rowspan="3">Special Effects</th>
+						<td><a href="#">Fog Machine</a></td>
+						<td> $34.99</td>
+					</tr>
+					<tr>
+						<td><a href="#">Fog juice</a></td>
+						<td> $9.99</td>
+					</tr>
+					<tr>
+						<td><a href="#"> Mini Strobe Light</a></td>
+						<td> $14.99</td>
+					</tr>
+					<tr>
+						<th rowspan="2"> Masks</th>
+						<td><a href="#">Freddy</a></td>
+						<td> $44.50</td>
+					</tr>
+					<tr>
+						<td><a href="#">Darth Vader</a></td>
+						<td> $124.50</td>
+					</tr>
+				</tbody>
+			</table>
+    </section>
+    <nav id="nav_list">
+        <ul>
+            <li><a href="products/props.html">Props</a></li>
+            <li><a href="products/costumes.html">Costumes</a></li>
+            <li><a href="products/special_effects.html">Special FX</a></li>
+            <li><a href="products/masks.html">Masks</a></li>
+        </ul>
+    </nav>
+</main>
+
+<footer>
+    <p>&copy;2022 Sujan Basnet</p>
+</footer>
+<script>
+$(document).ready(function(){
+    $('#navMenu').slicknav({prependTo:"#mblMenu"});
+});
+</script>
+</body>
+</html>

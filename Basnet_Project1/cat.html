@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halloween Store: Product page</title>
+     <link rel="stylesheet" href="product.css">
+     <script src="slicknav.min.js"></script>
+      <script src="jquery.slicknav.min.js"> </script>
+     <link rel="stylesheet" href="slicknav.css">
+       <link rel="shortcut icon" href="favicon.ico">
+
+</head>
+<body>
+<header>
+
+  <img src="pumpkin.gif" alt="favicon.ico">
+    <h2>The Halloween Store</h2>
+    <h3>For the little Goblin in all of us!</h3>
+</header>
+
+<nav id="mblMenu"></nav>
+<nav id="navMenu">
+    <ul>
+        <li><a href="index.html" class="home">Home</a></li>
+        <li><a href="product_index.html">Product List</a></li>
+        <li><a href="personal_index.html">Personal</a></li>
+        <li><a href="#">Decorating Ideas</a>
+            <ul>
+                <li><a href="#">Outdoor</a></li>
+                <li><a href="#">Indoor</a></li>
+                <li><a href="#">Table</a></li>
+                <li><a href="#">Treats</a></li>
+            </ul>
+        </li>
+        <li><a href="email.html">Join Email</a></li>
+    </ul>
+</nav>
+<main>
+
+
+<section>
+<div id="simProduct">
+    <h4>customer who bought this product also bought:</h4>
+    <ul>
+        <li><a href="bat.html"><img src="flying_bats.jpg" alt="bat"><br>flying_bats</a></li>
+        <li><a href="rat.html"><img src="rat1.jpg" alt="rat"><br>Ugly rat</a></li>
+        <li><a href="light.html"><img src="strobe1.jpg" alt="light"><br>Mini strobe light</a></li>
+
+    </ul>
+</div>
+
+      <h3>20" Deranged Cat</h3>
+      <p><a><img src="cat1.jpg" alt="Deranged Cat" id="cat"></a><br></p>
+      <p id="text">This cat provides its own light and is perfect for a backyard haunting.</p>
+      <p id="price"><strong>Price: </strong>19.99</p>
+
+
+
+</section>
+<nav id="nav_list">
+    <ul>
+        <li><a href="products/props.html">Props</a></li>
+        <li><a href="products/costumes.html">Costumes</a></li>
+        <li><a href="products/special_effects.html">Special FX</a></li>
+        <li><a href="products/masks.html">Masks</a></li>
+    </ul>
+</nav>
+
+</main>
+
+<footer>
+    <p>&copy;2022 Sujan Basnet</p>
+</footer>
+<script>
+$(document).ready(function(){
+    $('#navMenu').slicknav({prependTo:"#mblMenu"});
+});
+</script>
+</body>
+</html>

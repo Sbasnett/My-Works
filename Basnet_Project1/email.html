@@ -1,0 +1,77 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Halloween Store: subscribe</title>
+       <link rel="stylesheet" href="email.css">
+       <script src="slicknav.min.js"></script>
+        <script src="jquery.slicknav.min.js"> </script>
+       <link rel="stylesheet" href="slicknav.css">
+         <link rel="shortcut icon" href="favicon.ico">
+
+  </head>
+  <body>
+  <header>
+      <img src="pumpkin.gif" alt="Pumpkin">
+      <h2>The Halloween Store</h2>
+      <h3>For the little Goblin in all of us!</h3>
+  </header>
+
+  <nav id="mblMenu"></nav>
+  <nav id="navMenu">
+      <ul>
+          <li><a href="index.html" class="home">Home</a></li>
+          <li><a href="product_index.html">Product List</a></li>
+          <li><a href="personal_index.html">Personal</a></li>
+          <li><a href="#">Decorating Ideas</a>
+              <ul>
+                  <li><a href="#">Outdoor</a></li>
+                  <li><a href="#">Indoor</a></li>
+                  <li><a href="#">Table</a></li>
+                  <li><a href="#">Treats</a></li>
+              </ul>
+          </li>
+          <li><a href="email.html" class="Email">Join Email</a></li>
+      </ul>
+  </nav>
+  <main>
+
+
+  <section>
+
+    <h2>Please enter the following information:</h2>
+    <form name="join_email" action="subscribe.html">
+    <p><label for="f_name">First name: <input type="text" name="first name" autofocus="" required="" id="f_name"></label></p>
+    <br>
+    <p><label for="l_name">Last name: <input type="text" name="last name" required="" id="l_name"></label></p>
+    <br>
+    <p><label for="email">Email: <input type="text" name="email" required="" id="email"></label></p>
+    <br>
+    <p><label for="zip">Zip Code: <input type="text" name="zip code" placeholder="Optional but appreciated: 99999" pattern="\d{5}([\-]\d{4})?" title=" Must be 99999" id="zip"></label></p>
+    <p><button name="submit"  id="button">Subscribe</button>
+  </form>
+
+  </section>
+  <nav id="nav_list">
+      <ul>
+          <li><a href="products/props.html">Props</a></li>
+          <li><a href="products/costumes.html">Costumes</a></li>
+          <li><a href="products/special_effects.html">Special FX</a></li>
+          <li><a href="products/masks.html">Masks</a></li>
+      </ul>
+  </nav>
+
+  </main>
+
+  <footer>
+      <p>&copy;2022 Sujan Basnet</p>
+  </footer>
+  <script>
+  $(document).ready(function(){
+      $('#navMenu').slicknav({prependTo:"#mblMenu"});
+  });
+  </script>
+  </body>
+  </html>
