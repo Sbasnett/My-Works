@@ -1,0 +1,11 @@
+C:\Users\basne\OneDrive\Desktop\Tranning\EmpManagement\EmpManagement\obj\Debug\EmpManagement.csproj.AssemblyReference.cache
+C:\Users\basne\OneDrive\Desktop\Tranning\EmpManagement\EmpManagement\obj\Debug\EmpManagement.csproj.SuggestedBindingRedirects.cache
+C:\Users\basne\OneDrive\Desktop\Tranning\EmpManagement\EmpManagement\obj\Debug\EmpManagement.Properties.Resources.resources
+C:\Users\basne\OneDrive\Desktop\Tranning\EmpManagement\EmpManagement\obj\Debug\EmpManagement.csproj.GenerateResource.cache
+C:\Users\basne\OneDrive\Desktop\Tranning\EmpManagement\EmpManagement\obj\Debug\EmpManagement.csproj.CoreCompileInputs.cache
+C:\Users\basne\OneDrive\Desktop\Tranning\EmpManagement\EmpManagement\bin\Debug\EmpManagement.exe.config
+C:\Users\basne\OneDrive\Desktop\Tranning\EmpManagement\EmpManagement\bin\Debug\EmpManagement.exe
+C:\Users\basne\OneDrive\Desktop\Tranning\EmpManagement\EmpManagement\bin\Debug\EmpManagement.pdb
+C:\Users\basne\OneDrive\Desktop\Tranning\EmpManagement\EmpManagement\obj\Debug\EmpManagement.exe
+C:\Users\basne\OneDrive\Desktop\Tranning\EmpManagement\EmpManagement\obj\Debug\EmpManagement.pdb
+C:\Users\basne\OneDrive\Desktop\Tranning\EmpManagement\EmpManagement\obj\Debug\EmpManagement.employeeForm.resources
